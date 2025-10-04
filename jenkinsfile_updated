@@ -51,7 +51,7 @@ pipeline {
             }
         }
         
-        stage('MAVEN NEW BUILD') {
+        stage('MAVEN BUILD') {
             steps {
                sh "mvn package"
             }
