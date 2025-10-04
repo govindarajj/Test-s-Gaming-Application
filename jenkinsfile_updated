@@ -22,7 +22,7 @@ pipeline {
             }
         }
         
-        stage('MAVEN NEW TESTING') {
+        stage('MAVEN TESTING') {
             steps {
                 sh "mvn test"
             }
